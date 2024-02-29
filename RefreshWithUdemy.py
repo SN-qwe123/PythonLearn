@@ -6,9 +6,11 @@ friend_ages = {
   "Anne": 27
 }
 
-print(friend_ages["Adam"])
+#print(friend_ages["Adam"])
 friend_ages["Anne"] = 21
-print(friend_ages)
+#print(friend_ages)
+print(sum(friend_ages.values()))
+print(sum(friend_ages.values())/len(friend_ages))
 
 '''
 #using for loop to calculate average number of a list
