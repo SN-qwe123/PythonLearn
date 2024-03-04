@@ -6,6 +6,7 @@ friend_ages = {
   "Anne": 27
 }
 
+
 #print(friend_ages["Adam"])
 friend_ages["Anne"] = 21
 #print(friend_ages)
