@@ -15,6 +15,7 @@ friend_ages["Anne"] = 21
 print(sum(friend_ages.values()))
 print(sum(friend_ages.values())/len(friend_ages))
 
+
 '''
 #using for loop to calculate average number of a list
 grades = [35, 67, 88, 93, 100, 45]
