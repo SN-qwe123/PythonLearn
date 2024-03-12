@@ -6,6 +6,7 @@ friend_ages = {
   "Anne": 27
 }
 
+
 for friend_name, friend_age in friend_ages.items():
   print(f"{friend_name}'s age is {friend_age}.")
 
