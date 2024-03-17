@@ -1,4 +1,13 @@
 
+#Function
+
+def greeting(name, surname):
+  print(f"Hello, {name} {surname}!")
+
+greeting("Bob", "Potter")
+greeting(surname = "Potter", name="Bob")
+
+'''
 #dictionary
 friend_ages = {
   "Rolf":24,
@@ -14,7 +23,7 @@ friend_ages["Anne"] = 21
 #print(friend_ages)
 print(sum(friend_ages.values()))
 print(sum(friend_ages.values())/len(friend_ages))
-
+'''
 
 '''
 #using for loop to calculate average number of a list
