@@ -7,6 +7,7 @@ def greeting(name, surname):
 greeting("Bob", "Potter")
 greeting(surname = "Potter", name="Bob")
 
+
 '''
 #dictionary
 friend_ages = {
