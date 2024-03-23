@@ -4,6 +4,7 @@ menu="""
 3, Exit
 """
 
+
 welcome = "Welsome to the Journal App!"
 print(welcome)
 
