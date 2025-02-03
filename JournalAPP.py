@@ -4,7 +4,7 @@ menu="""
 3, Exit
 """
 
-welcome = "Welsome to the Journal App!"
+welcome = "Welcome to the Journal App!"
 print(welcome)
 
 userInput=input(menu + "Enter your option:")
@@ -23,4 +23,6 @@ while userInput != 3:
   else:
     print("Wrong input!")
     userInput = input(menu + "Enter your option:")
+
+# test
 
