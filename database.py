@@ -8,3 +8,5 @@ def add_entry():
 def view_entries():
     for entry in entries:
         print(f"{entry['date']} \n {entry['content']}\n\n")
+
+#test
