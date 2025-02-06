@@ -1,3 +1,5 @@
+from database import add_entry, view_entries
+
 menu="""
 1, Add a new entry
 2, View current entries
@@ -23,6 +25,4 @@ while userInput != 3:
   else:
     print("Wrong input!")
     userInput = input(menu + "Enter your option:")
-
-# test
 
