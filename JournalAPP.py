@@ -22,7 +22,13 @@ while userInput != 3:
 
     userInput=input(menu + "Enter your option:")
   elif userInput == "2":
-    view_entries()
+    #retrieve entries from the database
+    entries = view_entries()
+
+    #display entries
+    for entry in entries:
+        print(f"{entry['date']}\n{entry['content']}\n\n")
+
     userInput=input(menu + "Enter your option:")
   elif userInput == "3":
     print("Exiting program.")
