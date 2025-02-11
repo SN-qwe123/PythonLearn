@@ -1,12 +1,9 @@
-entries = []
+entries = [{"content": "sss", "date": "sssssss"}]
 
-def add_entry():
-    entry_content = input("What have you learnt today?")
-    entry_date = input("Input today's date:")
+def add_entry(entry_content, entry_date):
+
     entries.append({"content": entry_content, "date": entry_date})
 
 def view_entries():
     for entry in entries:
-        print(f"{entry['date']} \n {entry['content']}\n\n")
-
-#testttt
+        print(f"{entry['date']}\n{entry['content']}\n\n")
